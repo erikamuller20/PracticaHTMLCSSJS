@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <form accept="" method="POST" id="form">
+      <div class="form">
+        <h1>Completa tus datos</h1>
+        <br>
+        <h2>Información Personal</h2>
+        <div class="grupo">
+          <input type="text" name="" id="name" /><span class="barra"></span>
+          <label for="">Nombre</label>
+        </div>
+
+        <div class="grupo">
+          <input type="text" name="" id="ape" /><span class="barra"></span>
+          <label for="">Apellido</label>
+        </div>
+
+        <div class="grupo">
+          <input type="text" name="" id="edad" /><span class="barra"></span>
+          <label for="">Edad</label>
+        </div>
+      </div>
+
+      <div class="radio">
+          <input type="radio" name="sexo" id="Masculino" checked="checked">
+          <label for="Masculino">Masculino</label>
+          
+          <input type="radio" name="sexo" id="Femenino">
+          <label for="Femenino">Femenino</label>
+      </div>
+
+      <div class="form">
+        <h2>Información Adicional</h2>
+        <div class="grupo">
+          <input type="text" name="" id="empresa" /><span class="barra"></span>
+          <label for="">Empresa</label>
+        </div>
+
+        <button type="submit" >Enviar</button>
+        <button type="reset">Limpiar</button>
+        <p class="warnings" id="warnings"></p>
+      </div>
+
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
