@@ -5,6 +5,7 @@ const empresa = document.getElementById("empresa");
 const formulario = document.getElementById("form");
 const parrafo = document.getElementById("warnings");
 
+
 formulario.addEventListener("submit", e=>{
         e.preventDefault();
 
